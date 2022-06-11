@@ -1,6 +1,6 @@
 # gibstutz
 
-This is a Projekt of idiots trying to learn hot to code
+This is a Projekt of idiots trying to learn how to code
 Make sure to wishlist this beast on steam
 
 
