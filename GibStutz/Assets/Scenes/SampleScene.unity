@@ -2379,6 +2379,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2156684216617592170, guid: 0e9dc0500020aab468747d390381a3b8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0e9dc0500020aab468747d390381a3b8, type: 3}
+--- !u!65 &2156684216264194882 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 2156684216617592174, guid: 0e9dc0500020aab468747d390381a3b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 2156684216264194881}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2645660937596667457 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4132424588431588608, guid: 0e9dc0500020aab468747d390381a3b8,
@@ -2421,7 +2427,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 706461834}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 2156684216264194882}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2455,7 +2462,18 @@ MonoBehaviour:
       m_Calls: []
   m_Activated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3457803774316502268}
+        m_MethodName: Fire
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
