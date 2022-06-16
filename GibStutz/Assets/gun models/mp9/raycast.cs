@@ -18,10 +18,7 @@ public class raycast : MonoBehaviour
 
         if(Physics.Raycast(raycastOrigin.position, raycastOrigin.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, targetLayer))
         {
-            if (hit.CompareTag("knockbackable"))
-            {
-                
-            }
+            Debug.Log("hitandings");
         }
     }
 

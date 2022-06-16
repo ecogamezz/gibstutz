@@ -189,6 +189,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1001 &116606270
@@ -257,6 +262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: shootatme (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
@@ -327,6 +337,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1 &225672399
@@ -362,24 +377,6 @@ Transform:
   m_Father: {fileID: 1196074593}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &266452686 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
-    type: 3}
-  m_PrefabInstance: {fileID: 977032678}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &266452687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 266452686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22ae62aa7bfc47642b0346e05b3e7d78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &278886829
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,6 +700,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1001 &667450281
@@ -771,6 +773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: shootatme (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
@@ -1103,6 +1110,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1001 &914157033
@@ -1172,6 +1184,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1001 &930055643
@@ -1240,6 +1257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: shootatme (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
@@ -1514,6 +1536,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1001 &1010491091
@@ -1582,6 +1609,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: shootatme (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
@@ -1871,6 +1903,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1 &1196074591
@@ -2142,6 +2179,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1 &1326728297
@@ -2309,6 +2351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1001 &1409752919
@@ -2377,6 +2424,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: shootatme (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
@@ -2453,6 +2505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1001 &1612029186
@@ -2527,6 +2584,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1001 &1785512273
@@ -2596,6 +2658,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shootatme (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
 --- !u!1001 &1951721177
@@ -2664,6 +2731,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: shootatme (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402159812826631167, guid: 582822d177f1f104392423923e20ea5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582822d177f1f104392423923e20ea5c, type: 3}
@@ -2811,27 +2883,27 @@ PrefabInstance:
     - target: {fileID: 1717880906425932522, guid: 512e3934b1209a54ba8f270605365bbb,
         type: 3}
       propertyPath: m_Size.x
-      value: 11.544332
+      value: 14.546151
       objectReference: {fileID: 0}
     - target: {fileID: 1717880906425932522, guid: 512e3934b1209a54ba8f270605365bbb,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.390183
+      value: 6.302546
       objectReference: {fileID: 0}
     - target: {fileID: 1717880906425932522, guid: 512e3934b1209a54ba8f270605365bbb,
         type: 3}
       propertyPath: m_Size.z
-      value: 0.7226755
+      value: 0.7226752
       objectReference: {fileID: 0}
     - target: {fileID: 1717880906425932522, guid: 512e3934b1209a54ba8f270605365bbb,
         type: 3}
       propertyPath: m_Center.x
-      value: -3.6104853
+      value: -2.1095111
       objectReference: {fileID: 0}
     - target: {fileID: 1717880906425932522, guid: 512e3934b1209a54ba8f270605365bbb,
         type: 3}
       propertyPath: m_Center.y
-      value: 2.1870887
+      value: -0.26908407
       objectReference: {fileID: 0}
     - target: {fileID: 1717880906425932522, guid: 512e3934b1209a54ba8f270605365bbb,
         type: 3}
@@ -2907,6 +2979,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047528402442442808, guid: 512e3934b1209a54ba8f270605365bbb,
+        type: 3}
+      propertyPath: m_MovementType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4047528402442442808, guid: 512e3934b1209a54ba8f270605365bbb,
         type: 3}
@@ -3175,7 +3252,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
