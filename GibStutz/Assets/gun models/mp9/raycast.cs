@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System;
+using System.Threading;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class raycast : MonoBehaviour
@@ -7,6 +8,11 @@ public class raycast : MonoBehaviour
     [SerializeField] XRGrabInteractable grabInteractable;
     [SerializeField] Transform raycastOrigin;
     [SerializeField] LayerMask targetLayer;
+    [SerializeField] AudioSource gunAudioSource;
+    [SerializeField] AudioClip gunClipSFX;
+    int FireRate = 10;
+
+    
 
     private void FireRaycastIntoScene()
     {
@@ -16,12 +22,20 @@ public class raycast : MonoBehaviour
         {
             Debug.Log("hit target");
         }
-   
+    
     }
-    public void shoot()
-    {
 
-        FireRaycastIntoScene();
+
+
+    public void shoot(ActivateEventArgs arg0)
+    {
+            arg0.interactor.GetComponent<XRBaseController>().SendHapticImpulse(.5f, .25f);
+
+            gunAudioSource.PlayOneShot(gunClipSFX);
+
+            FireRaycastIntoScene();
+     
+
     }
 
 }
