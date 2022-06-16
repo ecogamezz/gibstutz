@@ -1311,7 +1311,6 @@ GameObject:
   - component: {fileID: 949834727}
   - component: {fileID: 949834729}
   - component: {fileID: 949834728}
-  - component: {fileID: 949834730}
   m_Layer: 0
   m_Name: Lefthand
   m_TagString: Untagged
@@ -1348,7 +1347,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 142950339406783275, guid: c2fe011b5cc30f340a79270a1e21977b,
+  m_ModelPrefab: {fileID: 3657970108957215068, guid: 65847589f926b734d9eaed6e25f0046b,
     type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
@@ -1456,23 +1455,6 @@ MonoBehaviour:
   m_PlayHapticsOnHoverCanceled: 0
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
---- !u!114 &949834730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 949834725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 045c09e2d0efc28448372cc5eae649fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showController: 0
-  controllerCharacteristics: 256
-  controllerPrefabs: []
-  handModelPrefab: {fileID: 1542793266664727855, guid: 65847589f926b734d9eaed6e25f0046b,
-    type: 3}
 --- !u!1001 &977032678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1668,7 +1650,6 @@ GameObject:
   - component: {fileID: 1036953771}
   - component: {fileID: 1036953773}
   - component: {fileID: 1036953772}
-  - component: {fileID: 1036953774}
   m_Layer: 0
   m_Name: Rihthand
   m_TagString: Untagged
@@ -1705,7 +1686,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 142950339406783275, guid: 7aae2924ffb79664eba64ad8d16a21e9,
+  m_ModelPrefab: {fileID: 4573305775033010447, guid: 1fd3a7c43c8190f4d8c167ebde694364,
     type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
@@ -1813,23 +1794,6 @@ MonoBehaviour:
   m_PlayHapticsOnHoverCanceled: 0
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
---- !u!114 &1036953774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036953769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 045c09e2d0efc28448372cc5eae649fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showController: 0
-  controllerCharacteristics: 512
-  controllerPrefabs: []
-  handModelPrefab: {fileID: 2441383148680278251, guid: 1fd3a7c43c8190f4d8c167ebde694364,
-    type: 3}
 --- !u!1 &1155401571
 GameObject:
   m_ObjectHideFlags: 0
