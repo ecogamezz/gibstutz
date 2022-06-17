@@ -22,7 +22,7 @@ public class raycast : MonoBehaviour
             Transform objectHit = hit.transform;
             Debug.Log("testetsetst");
 
-           
+
             Health HP = hit.collider.gameObject.GetComponent<Health>();
             HP.launch();
             Debug.Log("hit");
