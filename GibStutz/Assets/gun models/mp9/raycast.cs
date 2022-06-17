@@ -27,7 +27,6 @@ public class raycast : MonoBehaviour
             HP.launch();
             Debug.Log("hit");
 
-            
 
         }
     }

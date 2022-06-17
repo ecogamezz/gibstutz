@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
 
     public void launch()
     {
-        Debug.Log("launch")
+        Debug.Log("launch");
         rb.AddForce(transform.up * speed);
     }
 
