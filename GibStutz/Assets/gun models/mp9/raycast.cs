@@ -11,7 +11,7 @@ public class raycast : MonoBehaviour
     [SerializeField] AudioSource gunAudioSource;
     [SerializeField] AudioClip gunClipSFX;
     public int damage = 100;
-    public int force = 100;
+    public int force = 450;
 
 
     public void FireRaycastIntoScene()
@@ -37,7 +37,9 @@ public class raycast : MonoBehaviour
 
 
     public void shoot(ActivateEventArgs arg0)
+       
     {
+        gunAudioSource.Stop();
         arg0.interactor.GetComponent<XRBaseController>().SendHapticImpulse(.5f, .25f);
 
         gunAudioSource.PlayOneShot(gunClipSFX);
