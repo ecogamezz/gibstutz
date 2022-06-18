@@ -83,10 +83,10 @@ Material:
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0, g: 0.747313, b: 1, a: 0.24313726}
+    - _Color: {r: 1, g: 0.17973839, b: 0, a: 0.29803923}
     - _CrossColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _PlaneNormal: {r: 1.6125981e-10, g: 1, b: 0.00000011920929, a: 0}
-    - _PlanePosition: {r: 0.5462309, g: -0.29800212, b: 7.375493, a: 0}
-    - _TopColor: {r: 0, g: 0.7490196, b: 1, a: 1}
+    - _PlaneNormal: {r: 0, g: 1, b: 0, a: 0}
+    - _PlanePosition: {r: 1.38, g: 0.24, b: 7.79, a: 0}
+    - _TopColor: {r: 0.5566038, g: 0.10040696, b: 0, a: 1}

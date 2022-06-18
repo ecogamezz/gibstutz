@@ -1,2 +1,10 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.4.39f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.4.39f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: preprocess
+  error: 2 plat 24 at (45): Unexpected identifier "Input". Expected: ')'
+  error: 2 plat 24 at (73): Unexpected identifier "Input". Expected: ')'
+  insize=2498 outsize=1362 ok=0
+Cmd: preprocess
+  insize=1609 outsize=1377 ok=1
+Cmd: preprocess
+  insize=4109 outsize=3015 ok=1

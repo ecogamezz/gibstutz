@@ -10,22 +10,26 @@ public class raycast : MonoBehaviour
     [SerializeField] LayerMask targetLayer;
     [SerializeField] AudioSource gunAudioSource;
     [SerializeField] AudioClip gunClipSFX;
-    public int damage = 50;
+    public int damage = 100;
+    public int force = 100;
 
 
     public void FireRaycastIntoScene()
     {
         RaycastHit hit;
+        
 
         if (Physics.Raycast(raycastOrigin.position, raycastOrigin.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, targetLayer))
         {
             Transform objectHit = hit.transform;
-            Debug.Log("testetsetst");
+
+
+            hit.rigidbody.AddForceAtPosition(force * transform.forward, hit.point);
 
 
             Health HP = hit.collider.gameObject.GetComponent<Health>();
             HP.launch();
-            Debug.Log("hit");
+
 
 
         }
