@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 3
-  radius: 1
+  radius: 2
   force: 270
   explosionEffect: {fileID: 2652342494738877961, guid: 1b90b73bb11b9594da406f167747b50c,
     type: 3}
