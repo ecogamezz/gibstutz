@@ -13,7 +13,8 @@ public class grenadeboom : MonoBehaviour
 
     int colinsschwoster = 0;
 
-  
+    public GameObject explosionEffect;
+
 
     float countdown;
     bool hasExploded = false;
@@ -41,8 +42,9 @@ public class grenadeboom : MonoBehaviour
     }
     void Explode()
     {
-      
 
+        Instantiate(explosionEffect, transform.position, transform.rotation);
+        
         Vector3 explosionPos = transform.position;
         Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
         foreach (Collider hit in colliders)

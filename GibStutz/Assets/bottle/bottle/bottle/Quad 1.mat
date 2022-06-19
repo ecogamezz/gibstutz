@@ -87,6 +87,6 @@ Material:
     - _CrossColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _PlaneNormal: {r: 4.8383975e-12, g: 1.0000002, b: 0.00000035762787, a: 0}
-    - _PlanePosition: {r: 1.1759925, g: 0.42098862, b: 2.873571, a: 0}
+    - _PlaneNormal: {r: -1.0028496e-11, g: 1.0000004, b: 0.00000035762787, a: 0}
+    - _PlanePosition: {r: 1.1759921, g: 0.42098862, b: 2.8735707, a: 0}
     - _TopColor: {r: 1, g: 1, b: 1, a: 1}
