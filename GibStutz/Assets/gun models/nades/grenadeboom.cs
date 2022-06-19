@@ -8,8 +8,8 @@ public class grenadeboom : MonoBehaviour
 
 
     public float delay = 3f;
-    public float radius = 1.75f;
-    public float force = 300f;
+    public float radius = 0.15f;
+    public float force = 70f;
 
     int colinsschwoster = 0;
 
@@ -34,6 +34,7 @@ public class grenadeboom : MonoBehaviour
             {
                 Explode();
                 hasExploded = true;
+                colinsschwoster = 0;
             }
         }
 
@@ -63,6 +64,6 @@ public class grenadeboom : MonoBehaviour
         arg0.interactor.GetComponent<XRBaseController>().SendHapticImpulse(.5f, .25f);
         colinsschwoster = 1;
 
-        Explode();
+      
     }
 }

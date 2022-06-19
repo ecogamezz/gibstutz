@@ -34,6 +34,7 @@ public class Grenade : MonoBehaviour
             {
                 Explode();
                 hasExploded = true;
+                colinsschwoster = 0;
             }
         }
         
@@ -63,6 +64,6 @@ public class Grenade : MonoBehaviour
         arg0.interactor.GetComponent<XRBaseController>().SendHapticImpulse(.5f, .25f);
         colinsschwoster = 1;
 
-        Explode();
+   
     }
 }

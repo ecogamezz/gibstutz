@@ -184,9 +184,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 5
-  radius: 5
-  force: 700
-  explosionEffect: {fileID: 443580460574167234}
+  radius: 0
+  force: 0
+  explosionEffect: {fileID: 8510577036032473138, guid: 6d15eb9098537f44b9bcb3cd67f59452,
+    type: 3}
 --- !u!136 &1166603813
 CapsuleCollider:
   m_ObjectHideFlags: 0

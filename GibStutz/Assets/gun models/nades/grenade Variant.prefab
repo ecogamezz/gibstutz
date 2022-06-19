@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4844343637699343934}
+      - m_Target: {fileID: 0}
         m_MethodName: Explodewithdelay
         m_Mode: 0
         m_Arguments:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &4844343637699343934
+--- !u!114 &2119227689736266576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,8 +184,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 3
-  radius: 1.75
-  force: 300
+  radius: 0.15
+  force: 70
 --- !u!136 &356477431
 CapsuleCollider:
   m_ObjectHideFlags: 0
