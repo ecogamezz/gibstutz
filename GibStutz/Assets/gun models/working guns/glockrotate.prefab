@@ -493,6 +493,7 @@ MonoBehaviour:
   gunClipSFX: {fileID: 8300000, guid: 099823bfef354c44ba85e0fd172ce9d5, type: 3}
   damage: 100
   force: 740
+  waittime: 0.06
   nuzzleflash: {fileID: 0}
   impactEffect: {fileID: 0}
 --- !u!54 &7242568422447622251
@@ -894,8 +895,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 415252393362716594, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
         type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 415252393362716594, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
+        type: 3}
       propertyPath: InitialModule.startSpeed.scalar
       value: 94.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 415252393362716594, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
+        type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 505977626269178894, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
         type: 3}

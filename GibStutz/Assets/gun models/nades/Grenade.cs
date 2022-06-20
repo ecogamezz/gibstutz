@@ -5,7 +5,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class Grenade : MonoBehaviour
 {
-   
+    [SerializeField] AudioSource gunAudioSource;
+    [SerializeField] AudioClip gunClipSFX;
 
     public float delay = 3f;
     public float radius = 0f;
@@ -32,6 +33,7 @@ public class Grenade : MonoBehaviour
             countdown -= Time.deltaTime;
             if (countdown <= 0f && !hasExploded)
             {
+                gunAudioSource.PlayOneShot(gunClipSFX);
                 Explode();
                 hasExploded = true;
                 colinsschwoster = 0;

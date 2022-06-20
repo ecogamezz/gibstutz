@@ -183,6 +183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7abe6d18537d10c4a99117fd2df6a93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gunAudioSource: {fileID: 0}
+  gunClipSFX: {fileID: 8300000, guid: c58449be5add67b44a75abc6cca6ee8e, type: 3}
   delay: 5
   radius: 0
   force: 0
