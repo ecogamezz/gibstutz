@@ -4050,7 +4050,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_RenderPostProcessing: 1
-  m_Antialiasing: 0
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -17322,6 +17322,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7c92b676d38fe1046b395ea584e15d98, type: 2}
+    - target: {fileID: 4107861534988719929, guid: e2339e0606325c54dae9d260d8edeff4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.178
+      objectReference: {fileID: 0}
     - target: {fileID: 4202502991555441969, guid: e2339e0606325c54dae9d260d8edeff4,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -17521,17 +17526,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7c92b676d38fe1046b395ea584e15d98, type: 2}
+      objectReference: {fileID: 2100000, guid: ead4b4f9d63c8b44bbd75badfc6ab6c8, type: 2}
     - target: {fileID: 6399097702286009393, guid: e2339e0606325c54dae9d260d8edeff4,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7c92b676d38fe1046b395ea584e15d98, type: 2}
+      objectReference: {fileID: 2100000, guid: 1e661b8d97025014b933bb6fc95d739c, type: 2}
     - target: {fileID: 6399097702286009393, guid: e2339e0606325c54dae9d260d8edeff4,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 7c92b676d38fe1046b395ea584e15d98, type: 2}
+      objectReference: {fileID: 2100000, guid: 1e661b8d97025014b933bb6fc95d739c, type: 2}
     - target: {fileID: 6591311995847136262, guid: e2339e0606325c54dae9d260d8edeff4,
         type: 3}
       propertyPath: m_audioClip
@@ -17567,6 +17572,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7c92b676d38fe1046b395ea584e15d98, type: 2}
+    - target: {fileID: 9209594046903279520, guid: e2339e0606325c54dae9d260d8edeff4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.172
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2339e0606325c54dae9d260d8edeff4, type: 3}
 --- !u!1001 &7242568424106336555
