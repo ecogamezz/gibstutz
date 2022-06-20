@@ -186,7 +186,7 @@ MonoBehaviour:
   delay: 5
   radius: 0
   force: 0
-  explosionEffect: {fileID: 8510577036032473138, guid: 6d15eb9098537f44b9bcb3cd67f59452,
+  explosionEffect: {fileID: 5123977201671604525, guid: 0e54b2dee159b824bba916c0debc49d0,
     type: 3}
 --- !u!136 &1166603813
 CapsuleCollider:

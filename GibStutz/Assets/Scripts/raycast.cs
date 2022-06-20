@@ -14,11 +14,14 @@ public class raycast : MonoBehaviour
     public int damage = 100;
     public int force = 450;
     private XRController xr;
-    float waittime = 0.06f;
+    public float waittime = 0.06f;
     private float nextFire = 0f;
     bool canshoot = false;
     int colinsschwoster = 0;
+
     
+    public ParticleSystem nuzzleflash;
+    public GameObject impactEffect;
 
     void FixedUpdate()
     {
@@ -41,8 +44,14 @@ public class raycast : MonoBehaviour
     {
         RaycastHit hit;
 
+        
+
+        
+
         if (Physics.Raycast(raycastOrigin.position, raycastOrigin.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, targetLayer))
         {
+           
+
             Transform objectHit = hit.transform;
 
 
@@ -52,9 +61,10 @@ public class raycast : MonoBehaviour
             Health HP = hit.collider.gameObject.GetComponent<Health>();
             HP.launch();
 
-
+            Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
 
         }
+        nuzzleflash.Play();
     }
 
 
