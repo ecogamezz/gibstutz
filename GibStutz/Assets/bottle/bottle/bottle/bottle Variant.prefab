@@ -170,8 +170,8 @@ GameObject:
   - component: {fileID: 6341890212400635422}
   - component: {fileID: 2245697096927336332}
   - component: {fileID: 5218284817137221401}
-  - component: {fileID: 8335107364642050226}
   - component: {fileID: 1238450961695118440}
+  - component: {fileID: 8779602238371643001}
   m_Layer: 0
   m_Name: bottle Variant
   m_TagString: Untagged
@@ -240,20 +240,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1412551, y: 2.1028883, z: 2.1117687}
   m_Center: {x: -0.007620454, y: -7.3587418, z: -0.036501884}
---- !u!114 &8335107364642050226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6005518886742744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aefcb544c569e5a488115d4eef91a18b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  maxHealth: 100
 --- !u!114 &1238450961695118440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,6 +355,20 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &8779602238371643001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005518886742744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4135ba23f1f4a2947a03a717c659294e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunAudioSource: {fileID: 0}
+  impactsound: {fileID: 0}
 --- !u!1 &7012258916204955650
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +380,6 @@ GameObject:
   - component: {fileID: 6856748764206079336}
   - component: {fileID: 4705425447547335152}
   - component: {fileID: 114489845662057455}
-  - component: {fileID: 8653297579573990015}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -449,27 +448,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &8653297579573990015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7012258916204955650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11759cdc511eba74a91534fdde69657a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bottle: {fileID: 3626398958737932295}
-  plane: {fileID: 8029075948657810231}
-  liquid: {fileID: 2100000, guid: 2dec8a2e0f4c372479f9bd32b350bf3e, type: 2}
-  topLiquidSurface: {fileID: 2100000, guid: dc8aaeeda692d20469e9274d61ca23a3, type: 2}
-  offset: {x: 0, y: 0, z: 0}
-  bottleHeight: 0.27
-  recoveryTime: 10
-  facingScale: 20.03
-  velocitySpeed: 1.69
 --- !u!1 &8029075948657810231
 GameObject:
   m_ObjectHideFlags: 0

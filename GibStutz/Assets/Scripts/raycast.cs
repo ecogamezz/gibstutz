@@ -58,8 +58,8 @@ public class raycast : MonoBehaviour
             hit.rigidbody.AddForceAtPosition(force * transform.forward, hit.point);
 
 
-            Health HP = hit.collider.gameObject.GetComponent<Health>();
-            HP.launch();
+            makesoundwhenhit mksnd = hit.collider.gameObject.GetComponent<makesoundwhenhit>();
+            mksnd.makesound();
 
             Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
 
