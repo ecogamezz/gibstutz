@@ -3,30 +3,21 @@ using System.Collections;
 
 public class Health : MonoBehaviour
 {
-    Rigidbody rb;
-    public float speed = 10f;
+    [SerializeField] private Transform player;
+    [SerializeField] private Transform respawnPoint;
 
-    public float maxHealth = 100f;
-    static public float currentHealth = 100f;
-
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
 
     public void launch()
     {
-        Debug.Log("launch");
-        rb.AddForce(transform.up * speed);
+        Debug.Log("meabootlegotshot");
+       
     }
 
-    void FixedUpdate()
+    void OnTriggerEnter(Collider other)
     {
-        if (currentHealth <= 0)
-        {
-            rb.AddForce(transform.up * speed);
-        }
+        player.transform.position = respawnPoint.transform.position;
     }
 
 }
+
+
