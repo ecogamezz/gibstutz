@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 64
+  controlID: 143
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 166
+  controlID: 144
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 167
+  controlID: 145
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -304,16 +304,16 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: d69a67902db7f994ca099bec79d22ce1
   m_Gizmos: 0
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.92199993, y: 0.6470001, z: -1.227}
+    m_Target: {x: -1.4019537, y: 0.43017247, z: 3.130264}
     speed: 2
-    m_Value: {x: -0.92201, y: 0.646995, z: -1.2270033}
+    m_Value: {x: -1.4019537, y: 0.43017247, z: 3.130264}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 0
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -359,20 +359,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.03
   m_Rotation:
-    m_Target: {x: -0.11907556, y: 0.8064847, z: -0.173362, w: -0.55333364}
+    m_Target: {x: 0.026979672, y: -0.03507335, z: -0.00094873353, w: -0.9990245}
     speed: 2
-    m_Value: {x: -0.1445249, y: -0.60549754, z: 0.11299757, w: -0.7744139}
+    m_Value: {x: 0.0269781, y: -0.03657169, z: -0.0009891976, w: -0.9989664}
   m_Size:
-    m_Target: 2.1213202
+    m_Target: 1.9976857
     speed: 2
-    m_Value: 2.1213257
+    m_Value: 2.4213202
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.2
-    m_SpeedNormalized: 0.089999974
+    m_Speed: 0.01
+    m_SpeedNormalized: 0
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -419,9 +419,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: fc560000
       m_LastClickedID: 0
-      m_ExpandedIDs: 1efbffff0e4d00001a4e0000
+      m_ExpandedIDs: 64daffff785c0000a25c0000c85c0000f45c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -734,20 +734,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/gun models/mp9
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/gun models/mp9
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\colin\OneDrive\Dokumente\gibstutz\GibStutz
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 44550000
-    m_LastClickedID: 21828
-    m_ExpandedIDs: 000000004455000046550000485500004a5500004c5500004e5500005055000052550000545500005c55000078550000d062000000ca9a3b
+    scrollPos: {x: 0, y: 39}
+    m_SelectedIDs: fc560000
+    m_LastClickedID: 22268
+    m_ExpandedIDs: 00000000bc540000be540000c0540000c2540000c4540000c6540000c8540000ca540000cc540000d454000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -775,7 +775,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004455000046550000485500004a5500004c5500004e550000505500005255000054550000
+    m_ExpandedIDs: 00000000bc540000be540000c0540000c2540000c4540000c6540000c8540000ca540000cc540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
