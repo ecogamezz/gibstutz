@@ -7,6 +7,7 @@ public class makesoundwhenhit : MonoBehaviour
     [SerializeField] AudioClip impactsound;
     public void makesound()
     {
+        gunAudioSource.Stop();
         gunAudioSource.PlayOneShot(impactsound);
     }
 }
