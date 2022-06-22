@@ -1,5 +1,132 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4566598419819044116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7497015126182454324}
+  - component: {fileID: 1063803366565907319}
+  m_Layer: 0
+  m_Name: smokeaudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7497015126182454324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4566598419819044116}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.751789, y: 2.3682272, z: -1.2883075}
+  m_LocalScale: {x: 22.22222, y: 22.22222, z: 22.22222}
+  m_Children: []
+  m_Father: {fileID: 8880180236850183990}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1063803366565907319
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4566598419819044116}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 30
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -1.4305629
+      outSlope: -1.4305629
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.100294985
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.7830163
+      outSlope: -0.7830163
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.18879056
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!54 &1166603815
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -93,7 +220,7 @@ MonoBehaviour:
   m_Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7482470042654947050}
+      - m_Target: {fileID: 6091606727858932994}
         m_MethodName: Explodewithdelay
         m_Mode: 0
         m_Arguments:
@@ -171,7 +298,7 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &7482470042654947050
+--- !u!114 &6091606727858932994
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,14 +307,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8104065131712243084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7abe6d18537d10c4a99117fd2df6a93f, type: 3}
+  m_Script: {fileID: 11500000, guid: e27dc52f454132741bf9e2941bb17033, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunAudioSource: {fileID: 0}
+  gunAudioSource: {fileID: 1063803366565907319}
   gunClipSFX: {fileID: 8300000, guid: c58449be5add67b44a75abc6cca6ee8e, type: 3}
-  delay: 5
+  delay: 3
   radius: 0
   force: 0
+  deletetimer: 5
+  rb: {fileID: 1166603815}
   explosionEffect: {fileID: 5123977201671604525, guid: 0e54b2dee159b824bba916c0debc49d0,
     type: 3}
 --- !u!136 &1166603813
@@ -346,6 +475,12 @@ PrefabInstance:
 --- !u!1 &8104065131712243084 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c402e10a7893b6d4db4757418bfe9dab,
+    type: 3}
+  m_PrefabInstance: {fileID: 8986376279143700701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8880180236850183990 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c402e10a7893b6d4db4757418bfe9dab,
     type: 3}
   m_PrefabInstance: {fileID: 8986376279143700701}
   m_PrefabAsset: {fileID: 0}

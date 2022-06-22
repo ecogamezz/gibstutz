@@ -11,6 +11,8 @@ public class grenadeboom : MonoBehaviour
     public float delay = 3f;
     public float radius = 0.15f;
     public float force = 70f;
+    public float deletetimer = 2f;
+    public Rigidbody rb;
 
     int colinsschwoster = 0;
 
@@ -25,6 +27,7 @@ public class grenadeboom : MonoBehaviour
     void Start()
     {
         countdown = delay;
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -40,7 +43,20 @@ public class grenadeboom : MonoBehaviour
                 hasExploded = true;
                 colinsschwoster = 0;
             }
+            
+         
         }
+        if (hasExploded == true)
+        {
+            deletetimer -= Time.deltaTime;
+            if (deletetimer <= 0f)
+            {
+                Destroy(gameObject);
+            }
+        }
+        
+
+
 
     }
     void Explode()
@@ -60,9 +76,11 @@ public class grenadeboom : MonoBehaviour
 
 
         // Damage
+        transform.localScale = new Vector3(0, 0, 0);
+        rb.isKinematic = true;
+        rb.detectCollisions = false;
 
 
-        Destroy(gameObject);
     }
     public void Explodewithdelay(ActivateEventArgs arg0)
     {

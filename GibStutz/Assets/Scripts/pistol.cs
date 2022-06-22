@@ -3,7 +3,7 @@ using System;
 using System.Collections;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class raycast : MonoBehaviour
+public class pistol : MonoBehaviour
 {
     [SerializeField] XRGrabInteractable grabInteractable;
     [SerializeField] Transform raycastOrigin;
@@ -13,27 +13,13 @@ public class raycast : MonoBehaviour
 
     public int damage = 100;
     public int force = 450;
-    public float waittime = 0.06f;
-    private float nextFire = 0f;
-    bool canshoot = false;
-    int colinsschwoster = 0;
 
 
     public ParticleSystem nuzzleflash;
     public GameObject impactEffect;
 
-    void FixedUpdate()
-    {
-        if (colinsschwoster == 1 && Time.time > nextFire)
-        {
-            nextFire = Time.time + waittime;
-            gunAudioSource.Stop();
-            gunAudioSource.PlayOneShot(gunClipSFX);
 
-            FireRaycastIntoScene();
-        }
 
-    }
 
     public void FireRaycastIntoScene()
     {
@@ -66,16 +52,11 @@ public class raycast : MonoBehaviour
     public void shoot()
 
     {
-        colinsschwoster = 1;
+        gunAudioSource.Stop();
+        gunAudioSource.PlayOneShot(gunClipSFX);
+
+        FireRaycastIntoScene();
 
     }
 
-
-
-
-    public void stopshoot()
-    {
-        colinsschwoster = 0;
-
-    }
 }

@@ -315,6 +315,8 @@ MonoBehaviour:
   delay: 2.78
   radius: 4.8
   force: 425
+  deletetimer: 2
+  rb: {fileID: 356477433}
   explosionEffect: {fileID: 5664545114201307641, guid: c2d907eb3b27e41488fcf9a5049d07eb,
     type: 3}
 --- !u!136 &356477431
