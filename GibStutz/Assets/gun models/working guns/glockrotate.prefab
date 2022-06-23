@@ -860,7 +860,7 @@ MonoBehaviour:
   damage: 100
   force: 700
   nuzzleflash: {fileID: 1804792557428287711}
-  impactEffect: {fileID: 2652342494738877961, guid: 1b90b73bb11b9594da406f167747b50c,
+  impactEffect: {fileID: 4422435247119438105, guid: 5ed746b74084cd2489036392bbf29c59,
     type: 3}
 --- !u!1 &7242568424368208954
 GameObject:

@@ -419,12 +419,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011880535378164801}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6936901999774045461}
-  m_RootOrder: 17
+  m_Father: {fileID: 4968478671306936253}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &9055673643372413491
 AudioSource:
@@ -788,6 +788,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6908959543474671380}
+  - {fileID: 6095062421596339395}
   m_Father: {fileID: 6936901999774045461}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
@@ -1014,7 +1015,7 @@ MonoBehaviour:
   force: 450
   waittime: 0.08
   nuzzleflash: {fileID: 6715877106476019674}
-  impactEffect: {fileID: 2652342494738877961, guid: 1b90b73bb11b9594da406f167747b50c,
+  impactEffect: {fileID: 4422435247119438105, guid: 5ed746b74084cd2489036392bbf29c59,
     type: 3}
 --- !u!1 &4990155778245563880
 GameObject:
@@ -1676,7 +1677,6 @@ Transform:
   - {fileID: 2567436942579537610}
   - {fileID: 9209594046903279520}
   - {fileID: 4968478671306936253}
-  - {fileID: 6095062421596339395}
   m_Father: {fileID: 4968478671551007904}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}

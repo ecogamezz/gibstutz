@@ -30,7 +30,7 @@ public class grenadeboom : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
+    // countdown 'till explosion
     void FixedUpdate()
     {
         if (colinsschwoster == 1)
@@ -61,7 +61,13 @@ public class grenadeboom : MonoBehaviour
     }
     void Explode()
     {
+        // disable rb & set transform
+        transform.rotation = Quaternion.Euler(-90, 0, 0);
+        transform.localScale = new Vector3(0, 0, 0);
+        rb.isKinematic = true;
+        rb.detectCollisions = false;
 
+        //explosion
         Instantiate(explosionEffect, transform.position, transform.rotation);
         
         Vector3 explosionPos = transform.position;
@@ -75,10 +81,7 @@ public class grenadeboom : MonoBehaviour
         }
 
 
-        // Damage
-        transform.localScale = new Vector3(0, 0, 0);
-        rb.isKinematic = true;
-        rb.detectCollisions = false;
+
 
 
     }
