@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3065252558114938134}
   - component: {fileID: 510344503970402846}
   - component: {fileID: 4459093225498918894}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: Cylinder.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 2858196459577942030}
   - component: {fileID: 8206855764843959829}
   - component: {fileID: 8029770536118470769}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 679964303502409281}
   - component: {fileID: 1255285939412225106}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: Bottle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   - component: {fileID: 5218284817137221401}
   - component: {fileID: 1238450961695118440}
   - component: {fileID: 8779602238371643001}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: bottle Variant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 6856748764206079336}
   - component: {fileID: 4705425447547335152}
   - component: {fileID: 114489845662057455}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,7 +585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5371956170652406456}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
