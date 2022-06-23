@@ -414,7 +414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1326424919763405901}
-  m_Layer: 9
+  m_Layer: 28
   m_Name: mcxbarrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 1326424920224523700}
   - component: {fileID: 1326424920224523702}
   - component: {fileID: 1326424920224523701}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: mcxrotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,8 +659,7 @@ MonoBehaviour:
   damage: 100
   force: 450
   waittime: 0.1
-  nuzzleflash: {fileID: 415252393362716594, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
-    type: 3}
+  nuzzleflash: {fileID: 6099587869601661649}
   impactEffect: {fileID: 2652342494738877961, guid: 1b90b73bb11b9594da406f167747b50c,
     type: 3}
 --- !u!1 &2462974280271869148
@@ -1745,7 +1744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6960069954953754722}
   - component: {fileID: 4742993141500222998}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: mcxsourceaudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1881,23 +1880,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 509290926015240060, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.19999994
-      objectReference: {fileID: 0}
-    - target: {fileID: 509290926015240060, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.19999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 509290926015240060, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.19999994
-      objectReference: {fileID: 0}
-    - target: {fileID: 509290926015240060, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
-        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 509290926015240060, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
         type: 3}
@@ -1907,7 +1891,7 @@ PrefabInstance:
     - target: {fileID: 509290926015240060, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.739
       objectReference: {fileID: 0}
     - target: {fileID: 509290926015240060, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
         type: 3}
@@ -1949,6 +1933,12 @@ PrefabInstance:
 --- !u!4 &6229620014351622687 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 509290926015240060, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
+    type: 3}
+  m_PrefabInstance: {fileID: 5865185365112943971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6099587869601661649 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 415252393362716594, guid: 7ea5b2c8b445dcc47912cef1c4c9414c,
     type: 3}
   m_PrefabInstance: {fileID: 5865185365112943971}
   m_PrefabAsset: {fileID: 0}
