@@ -18,7 +18,7 @@ public class pistol : MonoBehaviour
     public ParticleSystem nuzzleflash;
     public GameObject impactEffect;
 
-
+    public Animator anim;
 
 
     public void FireRaycastIntoScene()
@@ -46,6 +46,8 @@ public class pistol : MonoBehaviour
 
         }
         nuzzleflash.Play();
+       
+        anim.Play("recoil and reload");
     }
 
 

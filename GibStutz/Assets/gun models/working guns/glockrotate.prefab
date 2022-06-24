@@ -137,7 +137,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844274714542296692}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.178227, y: 1.4201463, z: 0.00012730667}
+  m_LocalPosition: {x: 2.178227, y: 1.4201463, z: 0.0001273067}
   m_LocalScale: {x: 0.055479538, y: 0.056138378, z: 0.031594817}
   m_Children: []
   m_Father: {fileID: 7136090940993014284}
@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 6640917409817474122}
   - component: {fileID: 5315035883853141607}
   - component: {fileID: 1097368963323973622}
+  - component: {fileID: 8414947751165547907}
   m_Layer: 0
   m_Name: Cube.001
   m_TagString: Untagged
@@ -269,6 +270,25 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!95 &8414947751165547907
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041456768922398199}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2da1700083a22ba4f8e3979dad1c2b9b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3162097470727543478
 GameObject:
   m_ObjectHideFlags: 0
@@ -7274,7 +7294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6213821807446975463}
   m_LocalRotation: {x: -0.5000003, y: 0.49999982, z: -0.4999997, w: 0.5000002}
-  m_LocalPosition: {x: -0.19436716, y: 0.22482334, z: -0.0001180674}
+  m_LocalPosition: {x: -0.19436716, y: 0.2248233, z: -0.0001180674}
   m_LocalScale: {x: 0.5263444, y: 0.032537736, z: 0.5263444}
   m_Children: []
   m_Father: {fileID: 7136090940993014284}
@@ -10072,6 +10092,7 @@ GameObject:
   - component: {fileID: 7242568422447622251}
   - component: {fileID: 7242568422447622164}
   - component: {fileID: 7693398092648544044}
+  - component: {fileID: 7516248641427612971}
   m_Layer: 0
   m_Name: glockrotate
   m_TagString: Untagged
@@ -10262,6 +10283,25 @@ MonoBehaviour:
   nuzzleflash: {fileID: 1804792557428287711}
   impactEffect: {fileID: 4422435247119438105, guid: 5ed746b74084cd2489036392bbf29c59,
     type: 3}
+--- !u!95 &7516248641427612971
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7242568422447622166}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9fe9820740c04224b82cc3a63e1c7dd8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7242568424368208954
 GameObject:
   m_ObjectHideFlags: 0

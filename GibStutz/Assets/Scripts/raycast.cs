@@ -13,12 +13,14 @@ public class raycast : MonoBehaviour
     [SerializeField] AudioSource gunAudioSource;
     [SerializeField] AudioClip gunClipSFX;
 
+
     public int damage = 100;
     public int force = 450;
     public float waittime = 0.06f;
     private float nextFire = 0f;
     bool canshoot = false;
     int colinsschwoster = 0;
+    
 
 
     public ParticleSystem nuzzleflash;
@@ -36,9 +38,13 @@ public class raycast : MonoBehaviour
             gunAudioSource.PlayOneShot(gunClipSFX); 
 
             FireRaycastIntoScene(arg0);
+            
         }
+        
 
     }
+
+   
 
     public void FireRaycastIntoScene(ActivateEventArgs arg0)
     {
@@ -62,6 +68,7 @@ public class raycast : MonoBehaviour
 
         }
         nuzzleflash.Play();
+        
     }
 
 
