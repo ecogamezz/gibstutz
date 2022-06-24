@@ -3,6 +3,8 @@ using System;
 using System.Collections;
 using UnityEngine.XR.Interaction.Toolkit;
 
+
+[RequireComponent(typeof(XRBaseInteractable))]
 public class raycast : MonoBehaviour
 {
     [SerializeField] XRGrabInteractable grabInteractable;
@@ -21,6 +23,9 @@ public class raycast : MonoBehaviour
 
     public ParticleSystem nuzzleflash;
     public GameObject impactEffect;
+    public ActivateEventArgs arg0;
+    private XRBaseControllerInteractor vibcontroller;
+
 
     void FixedUpdate()
     {
@@ -28,25 +33,22 @@ public class raycast : MonoBehaviour
         {
             nextFire = Time.time + waittime;
             gunAudioSource.Stop();
-            gunAudioSource.PlayOneShot(gunClipSFX);
+            gunAudioSource.PlayOneShot(gunClipSFX); 
 
-            FireRaycastIntoScene();
+            FireRaycastIntoScene(arg0);
         }
 
     }
 
-    public void FireRaycastIntoScene()
+    public void FireRaycastIntoScene(ActivateEventArgs arg0)
     {
+        XRBaseControllerInteractor vibcontroller = (XRBaseControllerInteractor)GetComponent<XRBaseInteractable>().selectingInteractor;
+        vibcontroller.SendHapticImpulse(0.4f, 0.1f);
         RaycastHit hit;
-
-
-
-
 
         if (Physics.Raycast(raycastOrigin.position, raycastOrigin.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, targetLayer))
         {
-
-
+ 
             Transform objectHit = hit.transform;
 
 
@@ -63,10 +65,11 @@ public class raycast : MonoBehaviour
     }
 
 
-    public void shoot()
+    public void shoot(ActivateEventArgs arg0)
 
     {
         colinsschwoster = 1;
+        
 
     }
 
@@ -76,6 +79,5 @@ public class raycast : MonoBehaviour
     public void stopshoot()
     {
         colinsschwoster = 0;
-
     }
 }
