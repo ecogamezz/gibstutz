@@ -65,10 +65,10 @@
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
      <Compile Include="Assets\Scripts\CustomMulitpleInteractable.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\makesoundwhenhit.cs" />
      <Compile Include="Assets\Scripts\pistol.cs" />
      <Compile Include="Assets\Scripts\raycast.cs" />
-     <Compile Include="Assets\bottle\bottle\bottle\Rotator.cs" />
      <Compile Include="Assets\gun models\nades\grenadeboom.cs" />
      <None Include="Assets\gun models\mp9\Materials\stencil mask.shader" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
