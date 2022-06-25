@@ -44,6 +44,9 @@ public class pistol : MonoBehaviour
 
             Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
 
+            Health hp = hit.collider.gameObject.GetComponent<Health>();
+            hp.launch();
+
         }
         nuzzleflash.Play();
        

@@ -3,20 +3,17 @@ using System.Collections;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private Transform player;
-    [SerializeField] private Transform respawnPoint;
-
+    
+    public GameObject destroyedVersion;
 
     public void launch()
     {
         Debug.Log("meabootlegotshot");
-       
+        Instantiate(destroyedVersion, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        player.transform.position = respawnPoint.transform.position;
-    }
+    
 
 }
 
