@@ -317,7 +317,7 @@ MonoBehaviour:
   force: 0
   deletetimer: 5
   rb: {fileID: 1166603815}
-  explosionEffect: {fileID: 5123977201671604525, guid: 0e54b2dee159b824bba916c0debc49d0,
+  explosionEffect: {fileID: 6732499817156102376, guid: 77bc8f93ab22097458b30ec4c24aef8d,
     type: 3}
 --- !u!136 &1166603813
 CapsuleCollider:

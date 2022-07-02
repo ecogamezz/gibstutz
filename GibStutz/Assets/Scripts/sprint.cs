@@ -13,6 +13,8 @@ public class sprint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(device.TryGetFeatureValue(new joystickClicked)
+       // if(device.TryGetFeatureValue(new joystickClicked){
+        //    Debug.Log("spirntbutton");
+        //}
     }
 }
