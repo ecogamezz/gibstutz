@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class SetTargetFrameRate : MonoBehaviour
+public class fps : MonoBehaviour
 {
     public int targetFrameRate = 120;
 
