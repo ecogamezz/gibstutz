@@ -366,7 +366,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
@@ -506,6 +506,7 @@ MonoBehaviour:
   gunClipSFX: {fileID: 8300000, guid: 099823bfef354c44ba85e0fd172ce9d5, type: 3}
   damage: 100
   force: 1000
+  waittime: 0.06
   nuzzleflash: {fileID: 5053751080152385460, guid: 067db212d384a1c429df62f49f7b4ca8,
     type: 3}
   impactEffect: {fileID: 0}
