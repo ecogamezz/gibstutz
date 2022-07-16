@@ -1,0 +1,390 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32637 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/eriko/Documents/GitHub/Dont Hesitate
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+58452
+Successfully changed project path to: C:/Users/eriko/Documents/GitHub/Dont Hesitate
+C:/Users/eriko/Documents/GitHub/Dont Hesitate
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 154.99 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/eriko/Documents/GitHub/Dont Hesitate/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1235
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015176 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 173.75 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.059 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1060ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (787ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 136.27 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1772ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1473ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (803ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (462ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4165 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (431.2 KB). Loaded Objects now: 4608.
+Memory consumption went from 148.8 MB to 148.4 MB.
+Total: 4.383600 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.206600 ms MarkObjects: 3.560500 ms  DeleteObjects: 0.272200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 852824.515199 seconds.
+  path: Assets/AutoHand/Examples/Materials/Colors/lightGreen.mat
+  artifactKey: Guid(c842f327de8b3884b8bc4f6c1dc03518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/Colors/lightGreen.mat using Guid(c842f327de8b3884b8bc4f6c1dc03518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8515139f229726b013a48b028489a4') in 0.169678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AutoHand/Examples/Materials/Colors/lightYellow.mat
+  artifactKey: Guid(5eb417a0d16c54a44b73b085c2064ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/Colors/lightYellow.mat using Guid(5eb417a0d16c54a44b73b085c2064ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d580effbf317ce92396bda6ed9c3f61') in 0.020987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AutoHand/Examples/Materials/Colors/lightRed.mat
+  artifactKey: Guid(b836562ae56e04844a1c8b31f54f313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/Colors/lightRed.mat using Guid(b836562ae56e04844a1c8b31f54f313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec0762b7e4cd12cfb8f10dd9406837e') in 0.018900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.617856 seconds.
+  path: Assets/gun models/mcx virtus/textures/New Material.mat
+  artifactKey: Guid(2944ca17db0e07a4eb71fa22eb5c4007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun models/mcx virtus/textures/New Material.mat using Guid(2944ca17db0e07a4eb71fa22eb5c4007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cecd10b8979ff93bc819b52a9ca1258') in 0.034260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.737200 seconds.
+  path: Assets/gun models/glock/glock.fbx
+  artifactKey: Guid(1d8d96833b49d2e45950de07520a2144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun models/glock/glock.fbx using Guid(1d8d96833b49d2e45950de07520a2144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee650d7b0818cf69f1d6baf20fd91ae') in 0.154621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AutoHand/Examples/Materials/pasted__pasted__lambert6 2.mat
+  artifactKey: Guid(a49bd77abba9a374dba791119c2c1569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/pasted__pasted__lambert6 2.mat using Guid(a49bd77abba9a374dba791119c2c1569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30aef90cf5b884881cecab6ae3ddbae') in 0.019198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AutoHand/Examples/Materials/RaycastLineMaterial.mat
+  artifactKey: Guid(7eda17a7fd0c49947beadf77a24d0080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/RaycastLineMaterial.mat using Guid(7eda17a7fd0c49947beadf77a24d0080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dde7101b450340bdd71db56faef296') in 0.021239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AutoHand/Examples/Materials/Red Plastic.mat
+  artifactKey: Guid(c969267be26862c4eabf4a176d7c88ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/Red Plastic.mat using Guid(c969267be26862c4eabf4a176d7c88ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4aaeff3d7459914f9b34df6f90482fd') in 0.021842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AutoHand/Examples/Materials/normal map.mat
+  artifactKey: Guid(92ad111281af22045aa3c67ef0e610bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/normal map.mat using Guid(92ad111281af22045aa3c67ef0e610bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a812c65005b7b35ef0f38f092364e6c') in 0.033621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.146315 seconds.
+  path: Assets/AutoHand/Examples/Materials/RobotHandProjection.mat
+  artifactKey: Guid(a7e7da7a43feb7e45bc3448f5679a9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/RobotHandProjection.mat using Guid(a7e7da7a43feb7e45bc3448f5679a9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a482d22d03aeff6209a458f9cfc6ed96') in 0.024856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AutoHand/Examples/Materials/Colors/roomColor 2.mat
+  artifactKey: Guid(394b60938881a5248b610dbba332d6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/Colors/roomColor 2.mat using Guid(394b60938881a5248b610dbba332d6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e24846bce47f72f70fc0681b63b7875') in 0.019995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/particleeffects/rock.mat
+  artifactKey: Guid(dd62bf5f3c671a34b9db98bacb0028e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/particleeffects/rock.mat using Guid(dd62bf5f3c671a34b9db98bacb0028e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46812e52e1d318f2d619a75b951322f8') in 0.019311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AutoHand/Examples/Mesh/TrainingDummy/Materials/scarecrow_albedo.mat
+  artifactKey: Guid(7e2eae13fa459b14d95fbb464fc7281f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Mesh/TrainingDummy/Materials/scarecrow_albedo.mat using Guid(7e2eae13fa459b14d95fbb464fc7281f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff5477b6b6d650a07fe966d427d6414') in 0.024274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AutoHand/Examples/Materials/Rubber.mat
+  artifactKey: Guid(35c9de65447cf564d9e5c0d7781f6b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/Rubber.mat using Guid(35c9de65447cf564d9e5c0d7781f6b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a169a2a79de81ee934165dcf4d9f05') in 0.019544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078729 seconds.
+  path: Assets/particleeffects/smoke.mat
+  artifactKey: Guid(4e076827f08b4de4f91c6ae45f70390e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/particleeffects/smoke.mat using Guid(4e076827f08b4de4f91c6ae45f70390e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b774d9cb13a00abbcb6738e450ac1820') in 0.011052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/gun models/mp9/Materials/Materials/TexturesCom_Metal_PaintedGun_1K_albedo.mat
+  artifactKey: Guid(4a52a2e510cf7e047be2c3fb34c5db7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun models/mp9/Materials/Materials/TexturesCom_Metal_PaintedGun_1K_albedo.mat using Guid(4a52a2e510cf7e047be2c3fb34c5db7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1909129d0dfb44ce3edc2104dd1e36d1') in 0.020262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/gun models/mcx virtus/Materials/Materials/TexturesCom_Metal_AluminumBrushed2_1K_roughness 2.mat
+  artifactKey: Guid(74b581608d82f2d4ebbfceacf5c2722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun models/mcx virtus/Materials/Materials/TexturesCom_Metal_AluminumBrushed2_1K_roughness 2.mat using Guid(74b581608d82f2d4ebbfceacf5c2722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce2811d31f6e8cbfbba0f35e2f1f1c0') in 0.018321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/gun models/mcx virtus/Materials/Materials/TexturesCom_Plastic_Polymer_1K_albedo.mat
+  artifactKey: Guid(f7200a97ef346b244a310088fd95b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun models/mcx virtus/Materials/Materials/TexturesCom_Plastic_Polymer_1K_albedo.mat using Guid(f7200a97ef346b244a310088fd95b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb8b0805cea66ee734b42fbe5eb53bc') in 0.020314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AutoHand/Examples/Mesh/mk-2-grenade/source/Mk2grenade.FBX
+  artifactKey: Guid(914e7af7336da4f4a8985ba1500e3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Mesh/mk-2-grenade/source/Mk2grenade.FBX using Guid(914e7af7336da4f4a8985ba1500e3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5164e13f13d9fc2e4ba61c53e20d827c') in 0.039368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/gun models/mp9/Materials/TexturesCom_Metal_PaintedGun_1K_albedo.mat
+  artifactKey: Guid(c3900e5104f54e348aa93bda8888f866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun models/mp9/Materials/TexturesCom_Metal_PaintedGun_1K_albedo.mat using Guid(c3900e5104f54e348aa93bda8888f866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66e7b6b4099b422cf0fe59ce56fee86') in 0.018896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AutoHand/Examples/Materials/TransparentRed.mat
+  artifactKey: Guid(5132d99bd6d5f1149879370eaf1b058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Materials/TransparentRed.mat using Guid(5132d99bd6d5f1149879370eaf1b058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b92a91c66a748435da42bcaad8d87a') in 0.019990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/gun models/mcx virtus/Materials/Materials/TexturesCom_Plastic_Polymer_1K_albedo 1.mat
+  artifactKey: Guid(e3153f21d4ada4d4796e5ee5cd1d4205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun models/mcx virtus/Materials/Materials/TexturesCom_Plastic_Polymer_1K_albedo 1.mat using Guid(e3153f21d4ada4d4796e5ee5cd1d4205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1474d75ee826023a05502276df7061f3') in 0.018813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 283.766142 seconds.
+  path: Assets/gun models/working guns/glockrotate.prefab
+  artifactKey: Guid(65598122e5f4b7146b492620b570469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun models/working guns/glockrotate.prefab using Guid(65598122e5f4b7146b492620b570469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bdf7b21f6449890179fcda7f924147') in 0.029148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.401085 seconds.
+  path: Assets/sound
+  artifactKey: Guid(a18771765a4959442ad3ac1ac5d3396e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sound using Guid(a18771765a4959442ad3ac1ac5d3396e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09006f353b874d4640b0b77b09c270e1') in 0.009087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.894093 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5648c5ef36b7beab651a001a8d08867') in 0.008136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.492765 seconds.
+  path: Assets/sound/awm.wav
+  artifactKey: Guid(209e95d22765c9544816f11d110151d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sound/awm.wav using Guid(209e95d22765c9544816f11d110151d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82d582f4987d0840066bbd073a42d82') in 0.081375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sound/m4.wav
+  artifactKey: Guid(43ccb6912ccf4de48b26dd48e1d7b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sound/m4.wav using Guid(43ccb6912ccf4de48b26dd48e1d7b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aeb51e70eeb093a6ea807e1cada1c31') in 0.018015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AutoHand/Examples/Sounds/Hammer.mp3
+  artifactKey: Guid(fcf5f7caa7e172f4abf3eb1fc1731c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Sounds/Hammer.mp3 using Guid(fcf5f7caa7e172f4abf3eb1fc1731c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4799cda7166322bcdf54633718949719') in 0.018724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AutoHand/Examples/Sounds/GrabSound.mp3
+  artifactKey: Guid(d80edf00be4412f4a8d75b2729d47c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Sounds/GrabSound.mp3 using Guid(d80edf00be4412f4a8d75b2729d47c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f95e2e4d245150faf5398f9ae272f3') in 0.016109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AutoHand/Examples/Sounds/BoxHit.mp3
+  artifactKey: Guid(ec4a5dea733cd054c80fca078a6214a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Sounds/BoxHit.mp3 using Guid(ec4a5dea733cd054c80fca078a6214a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff4f56eaf9c0e11be1155132aa4824c') in 0.016771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AutoHand/Examples/Sounds/WoodBlock.wav
+  artifactKey: Guid(d3ff261c5dbf4404b97c340c05bda8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Sounds/WoodBlock.wav using Guid(d3ff261c5dbf4404b97c340c05bda8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfa5dd6378daa8f8673d93ec82c868c') in 0.015542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AutoHand/Examples/Sounds/Pistol.wav
+  artifactKey: Guid(56b55326d07c3a04c84a9e0cd1ac8dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Sounds/Pistol.wav using Guid(56b55326d07c3a04c84a9e0cd1ac8dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf1b5e40152bbe19c92d251d4216576') in 0.016563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AutoHand/Examples/Sounds/GenericImpact.ogg
+  artifactKey: Guid(1ebd2a75d209f8c418cde26c90046827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Sounds/GenericImpact.ogg using Guid(1ebd2a75d209f8c418cde26c90046827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40ec83227cb4295b42c4b8a412f8694') in 0.018844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sound/impact.wav
+  artifactKey: Guid(84983ee100267c84aabbde03f02ed1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sound/impact.wav using Guid(84983ee100267c84aabbde03f02ed1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71defbae5c789d882a7f1763b591b08') in 0.015547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sound/smoke.wav
+  artifactKey: Guid(c58449be5add67b44a75abc6cca6ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sound/smoke.wav using Guid(c58449be5add67b44a75abc6cca6ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a513a8ddc3412a66c0097410923194e4') in 0.015942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AutoHand/Examples/Sounds/SoftImpact.ogg
+  artifactKey: Guid(66169591194e7f8479424e3b0136b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Sounds/SoftImpact.ogg using Guid(66169591194e7f8479424e3b0136b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be1c1fc492cd6dedbe0a8a67f63a34a') in 0.017146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AutoHand/Examples/Sounds/GlassClink.wav
+  artifactKey: Guid(4a4d51474a581e642b34fbf6d41c6184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Sounds/GlassClink.wav using Guid(4a4d51474a581e642b34fbf6d41c6184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fb1f3af2a3f4aefa589a4e6b5cb870') in 0.018173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sound/hithuman.wav
+  artifactKey: Guid(2a8863adf4afd9e4f9f571964b6e02eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sound/hithuman.wav using Guid(2a8863adf4afd9e4f9f571964b6e02eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89295020e33a8a77b825ba3bcd1ebdd') in 0.016495 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
