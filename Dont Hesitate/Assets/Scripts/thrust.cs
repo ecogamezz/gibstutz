@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class thrust : MonoBehaviour
 {
-    Rigidbody m_Rigidbody;
-    public float m_Thrust = 5f;
-    public bool activated = false;
+    public int updateforward = 1;
+    public Rigidbody rb;
 
-    void FixedUpdate() {
-        if (activated == true) { m_Rigidbody.AddForce(transform.forward * m_Thrust); }
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
     }
-    public void Thrustforward() {
-        activated = true;
 
+    public void Thrustforward() {
+        updateforward ++;
     }    
+
+    void FixedUpdate()
+    {
+        if (updateforward != 1)
+        {
+            ApplyForce();
+        }
+    }
+    void ApplyForce()
+    {
+        Vector3 direction = rb.transform.position - transform.position;
+        rb.AddForceAtPosition(direction.normalized, transform.position * 100f);
+    }
 }

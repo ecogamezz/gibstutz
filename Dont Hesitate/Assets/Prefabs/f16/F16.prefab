@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eea949b8cc9777a468c1b81746784c87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Thrust: 15
-  activated: 0
+  updateforward: 1
+  rb: {fileID: 3078340858871942750}
 --- !u!114 &2354663792985239284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,6 +97,9 @@ MonoBehaviour:
   showAdvancedEvents: 1
   onSqueeze:
     m_PersistentCalls:
+      m_Calls: []
+  onUnsqueeze:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8033956790646150558}
         m_TargetAssemblyTypeName: thrust, Assembly-CSharp
@@ -110,9 +113,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onUnsqueeze:
-    m_PersistentCalls:
-      m_Calls: []
+      - m_Target: {fileID: 3078340858871942750}
+        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+        m_MethodName: set_useGravity
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHighlight:
     m_PersistentCalls:
       m_Calls: []
@@ -132,8 +144,8 @@ Rigidbody:
   m_GameObject: {fileID: 66001233794685112}
   serializedVersion: 2
   m_Mass: 10
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 0.01
+  m_AngularDrag: 1.25
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -150,7 +162,7 @@ GameObject:
   - component: {fileID: 275176267906331482}
   - component: {fileID: 3100358940958820880}
   - component: {fileID: 1883360231231958660}
-  - component: {fileID: 76376466576915751}
+  - component: {fileID: 4939448419402558970}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -223,8 +235,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &76376466576915751
-MeshCollider:
+--- !u!65 &4939448419402558970
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -233,7 +245,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2432090755550338912, guid: 93f101724b1a64242a76cf4aeb6c94f4, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 1.760876, y: 0.785408, z: 2.6659288}
+  m_Center: {x: 0, y: 0.12413001, z: 0.118017495}
