@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3426297695725984892}
   - component: {fileID: 1901359818332261685}
   - component: {fileID: 1954448984952830108}
+  - component: {fileID: 3039089219237048392}
   m_Layer: 9
   m_Name: mcxrotate
   m_TagString: Untagged
@@ -72,27 +73,27 @@ MonoBehaviour:
   hightlightMaterial: {fileID: 0}
   isGrabbable: 1
   CopySettings: {fileID: 0}
+  grabType: 0
+  handType: 1
   singleHandOnly: 0
   allowHeldSwapping: 1
   instantGrab: 0
-  ignoreWeight: 0
+  useGentleGrab: 0
   maintainGrabOffset: 0
+  ignoreWeight: 0
   parentOnGrab: 1
   throwPower: 1
   jointBreakForce: 3500
   showAdvancedSettings: 1
-  handType: 1
-  grabType: 0
-  useGentleGrab: 0
-  makeChildrenGrabbable: 1
-  pullApartBreakOnly: 1
-  customGrabJoint: {fileID: 0}
-  ignoreReleaseTime: 0.5
+  makeChildrenGrabbable: 0
   grabPriorityWeight: 1
+  ignoreReleaseTime: 0.5
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
+  customGrabJoint: {fileID: 0}
   jointedBodies: []
   heldIgnoreColliders: []
+  pullApartBreakOnly: 1
   showEvents: 1
   onGrab:
     m_PersistentCalls:
@@ -124,7 +125,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  showAdvancedEvents: 1
   onSqueeze:
     m_PersistentCalls:
       m_Calls:
@@ -265,8 +265,52 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2147483647
   shootSound: {fileID: 8300000, guid: 43ccb6912ccf4de48b26dd48e1d7b89f, type: 3}
-  shootVolume: 1
+  shootVolume: 0.4
   triggerpress: 0
+--- !u!114 &3039089219237048392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58418451395058628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c498b8ff53f43d43bb5f3b6001c2364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionTriggers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  source: {fileID: 4287206191159403274}
+  clip: {fileID: 8300000, guid: 315f7031961d0344c859bb6eebb25a85, type: 3}
+  velocityVolumeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  volumeAmp: 0.5
+  velocityAmp: 0.4
+  soundRepeatDelay: 0.2
 --- !u!1 &165871374999049106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,27 +1897,27 @@ MonoBehaviour:
   hightlightMaterial: {fileID: 0}
   isGrabbable: 1
   CopySettings: {fileID: 0}
+  grabType: 0
+  handType: 2
   singleHandOnly: 1
   allowHeldSwapping: 1
   instantGrab: 0
-  ignoreWeight: 0
+  useGentleGrab: 0
   maintainGrabOffset: 0
+  ignoreWeight: 0
   parentOnGrab: 1
   throwPower: 1
   jointBreakForce: 3500
   showAdvancedSettings: 1
-  handType: 2
-  grabType: 0
-  useGentleGrab: 0
   makeChildrenGrabbable: 1
-  pullApartBreakOnly: 1
-  customGrabJoint: {fileID: 0}
-  ignoreReleaseTime: 0.5
   grabPriorityWeight: 1
+  ignoreReleaseTime: 0.5
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
+  customGrabJoint: {fileID: 0}
   jointedBodies: []
   heldIgnoreColliders: []
+  pullApartBreakOnly: 1
   showEvents: 1
   onGrab:
     m_PersistentCalls:
@@ -1881,7 +1925,6 @@ MonoBehaviour:
   onRelease:
     m_PersistentCalls:
       m_Calls: []
-  showAdvancedEvents: 0
   onSqueeze:
     m_PersistentCalls:
       m_Calls: []
