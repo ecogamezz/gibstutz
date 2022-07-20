@@ -63,7 +63,7 @@ namespace Autohand {
         [Tooltip("The required force to break the fixedJoint\n " +
                  "Turn this to \"infinity\" to disable (Might cause jitter)\n" +
                 "Ideal value depends on hand mass and velocity settings")]
-        public float jointBreakForce = 3500;
+        public float jointBreakForce = 17500;
 
 
 
