@@ -276,6 +276,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 728224760}
     m_Modifications:
+    - target: {fileID: 1803024868266438712, guid: 8bac68e308772e241af2e8533e851b40, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.031243572
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803024868266438712, guid: 8bac68e308772e241af2e8533e851b40, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.09314025
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803024868266438712, guid: 8bac68e308772e241af2e8533e851b40, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.014521228
+      objectReference: {fileID: 0}
     - target: {fileID: 2316859041922957523, guid: 8bac68e308772e241af2e8533e851b40, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -8824,6 +8836,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 132514194}
     - target: {fileID: 5419984330537818522, guid: c16646110a3fda142ad010ae547d13d4, type: 3}
+      propertyPath: waittime
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419984330537818522, guid: c16646110a3fda142ad010ae547d13d4, type: 3}
       propertyPath: recoilPower
       value: 2
       objectReference: {fileID: 0}
@@ -9345,6 +9361,14 @@ PrefabInstance:
     - target: {fileID: 4144639375651643188, guid: 0cfabd1b7a73b3f4e8992208abd00b30, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287206191159403274, guid: 0cfabd1b7a73b3f4e8992208abd00b30, type: 3}
+      propertyPath: MaxDistance
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287206191159403274, guid: 0cfabd1b7a73b3f4e8992208abd00b30, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4483255926877431527, guid: 0cfabd1b7a73b3f4e8992208abd00b30, type: 3}
       propertyPath: m_Layer

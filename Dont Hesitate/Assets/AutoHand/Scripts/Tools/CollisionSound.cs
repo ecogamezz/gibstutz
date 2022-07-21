@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollisionSound : MonoBehaviour{
+public class CollisionSound : MonoBehaviour
+{
     [Tooltip("The layers that cause the sound to play")]
     public LayerMask collisionTriggers = ~0;
     [Tooltip("Source to play sound from")]
@@ -16,31 +17,37 @@ public class CollisionSound : MonoBehaviour{
     public float volumeAmp = 0.8f;
     public float velocityAmp = 0.5f;
     public float soundRepeatDelay = 0.2f;
-    
+
     Rigidbody body;
     bool canPlaySound = true;
     Coroutine playSoundRoutine;
 
-    private void Start() {
+    private void Start()
+    {
         body = GetComponent<Rigidbody>();
 
         //So the sound doesn't play when falling in place on start
         StartCoroutine(SoundPlayBuffer(1f));
     }
 
-    private void OnDisable(){
+    private void OnDisable()
+    {
         if (playSoundRoutine != null)
             StopCoroutine(playSoundRoutine);
     }
 
-    void OnCollisionEnter(Collision collision) {
+    void OnCollisionEnter(Collision collision)
+    {
         if (body == null)
             return;
 
-        if(canPlaySound && collisionTriggers == (collisionTriggers | (1 << collision.gameObject.layer))) {
-            if(source != null && source.enabled){
-                if (collision.collider.attachedRigidbody == null || collision.collider.attachedRigidbody.mass > 0.0000001f){
-                    if(clip != null || source.clip != null)
+        if (canPlaySound && collisionTriggers == (collisionTriggers | (1 << collision.gameObject.layer)))
+        {
+            if (source != null && source.enabled)
+            {
+                if (collision.collider.attachedRigidbody == null || collision.collider.attachedRigidbody.mass > 0.0000001f)
+                {
+                    if (clip != null || source.clip != null)
                         source.PlayOneShot(clip == null ? source.clip : clip, velocityVolumeCurve.Evaluate(collision.relativeVelocity.magnitude * velocityAmp) * volumeAmp);
                     if (playSoundRoutine != null)
                         StopCoroutine(playSoundRoutine);
@@ -50,14 +57,16 @@ public class CollisionSound : MonoBehaviour{
         }
     }
 
-    IEnumerator SoundPlayBuffer() {
+    IEnumerator SoundPlayBuffer()
+    {
         canPlaySound = false;
         yield return new WaitForSeconds(soundRepeatDelay);
         canPlaySound = true;
         playSoundRoutine = null;
     }
 
-    IEnumerator SoundPlayBuffer(float time) {
+    IEnumerator SoundPlayBuffer(float time)
+    {
         canPlaySound = false;
         yield return new WaitForSeconds(time);
         canPlaySound = true;

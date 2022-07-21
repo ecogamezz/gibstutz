@@ -9,9 +9,13 @@ namespace Autohand.Demo
         public Rigidbody body;
 
         public Transform barrelTip;
+
         public float hitPower = 1;
         public float recoilPower = 1;
         public float range = 100;
+        public float waittime = 0.12f;
+        private float nextFire = 0f;
+        
         public LayerMask layer;
 
         public AudioClip shootSound;
@@ -27,8 +31,9 @@ namespace Autohand.Demo
 
         private void FixedUpdate()
         {
-            if (triggerpress == true)
+            if (triggerpress == true && Time.time > nextFire)
             {
+                nextFire = Time.time + waittime;
                 Shoot();
             }
         }
