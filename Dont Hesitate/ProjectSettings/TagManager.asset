@@ -3,12 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FxTemporaire
+  - ignore_laser
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - laser
   - Water
   - UI
   - 
