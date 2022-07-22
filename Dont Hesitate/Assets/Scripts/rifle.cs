@@ -64,6 +64,11 @@ namespace Autohand.Demo
                     hitBody.GetComponent<Smash>()?.DoSmash();
                     hitBody.AddForceAtPosition((hit.point - barrelTip.position).normalized * hitPower * 10, hit.point, ForceMode.Impulse);
                 }
+                makesoundwhenhit mksnd = hit.collider.gameObject.GetComponent<makesoundwhenhit>();
+                if (mksnd != null)
+                {
+                    mksnd.makesound();
+                }
             }
             else
                 Debug.DrawRay(barrelTip.position, barrelTip.forward * range, Color.red, 1);
